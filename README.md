@@ -18,6 +18,10 @@ O objectivo desta api é realizar o cadastro e a consulta de dados de cartão de
 
 Certifique-se de ter o Python instalado com uma versão maior que 3.8. Você pode instalar os requisitos executando:
 
+```bash
+   pip install -r requirements.txt
+```
+
 ## Instalação
 
 1. Clone o repositório:
@@ -81,7 +85,7 @@ Com os dados do cartão de crédito encriptados basta agora usar api a `cards` p
 ![Encrypt Credit Card](https://github.com/josejonatasoliveira/credit_card_api/blob/master/images/jwt_uses.png)
 
 ##  Docker
-Para instalar via docker para executar o seguinte comando dentro da pasta `credit_card_api`.
+Para instalar via docker basta executar o seguinte comando dentro da pasta `credit_card_api`.
 
 ```bash
    docker-compose up --build
