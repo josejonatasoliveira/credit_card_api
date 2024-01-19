@@ -59,7 +59,8 @@ Após os passos anteriores esta na hora de rodar a api, para isso bastar executa
    python manage.py runserver 8040
    ```
 
-##Utilização
+## Utilização
+
 Antes de poder utilizar a api é necessário que seja criado um usuário para que seja feita autenticação nos endpoints utilizados. Para criar um usuário vá até o endpoit `POST /users/` e preencha as informações necessárias.
 
 ![User POST](https://github.com/josejonatasoliveira/credit_card_api/blob/master/images/user_post.png)
